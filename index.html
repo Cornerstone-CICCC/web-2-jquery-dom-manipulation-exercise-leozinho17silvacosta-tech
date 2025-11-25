@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery Traversing DOM Exercises</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h2>jQuery Traversing DOM Exercises</h2>
+
+  <h3>Exercise 1: Find and Style List Items</h3>
+  <div id="exercise1">
+    <button id="exercise1Button">Change List Items Color</button>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </div>
+
+  <h3>Exercise 2: Find and Style Parent Element</h3>
+  <div id="exercise2">
+    <button id="exercise2Button">Change Parent Background</button>
+    <div>
+      <p>This is a paragraph inside a div.</p>
+    </div>
+  </div>
+
+  <h3>Exercise 3: Find and Style Ancestor Elements</h3>
+  <div id="exercise3">
+    <button id="exercise3Button">Change Ancestor Background</button>
+    <div>
+      <div>
+        <p>This paragraph has multiple ancestor divs.</p>
+      </div>
+    </div>
+  </div>
+
+  <h3>Exercise 4: Find and Hide Second Sibling</h3>
+  <div id="exercise4">
+    <button id="exercise4Button">Hide Second Paragraph Sibling</button>
+    <h3>This is a heading</h3>
+    <p>First sibling paragraph.</p>
+    <p>Second sibling paragraph. Hide me if you can.</p>
+  </div>
+
+  <h3>Exercise 5: Find and Style Children Elements</h3>
+  <div id="exercise5">
+    <button id="exercise5Button">Add Border to Children</button>
+    <div>
+      <p>Child paragraph 1</p>
+      <p>Child paragraph 2</p>
+    </div>
+  </div>
+
+  <h3>Exercise 6: Find Previous Sibling and Style List Item 5 Span</h3>
+  <div id="exercise6">
+    <p>Some text</p>
+    <div>
+      <ul>
+        <li>
+          <span>Item 1</span>
+        </li>
+        <li>Item 2</li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>
+          <span>Item 5</span>
+        </li>
+      </ul>
+    </div>
+    <p>Some other text</p>
+    <button id="exercise6Button">Change Previous Sibling List Item Span Color</button>
+  </div>
+</body>
+</html>
